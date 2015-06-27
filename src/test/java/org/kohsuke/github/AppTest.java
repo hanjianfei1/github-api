@@ -766,7 +766,7 @@ public class AppTest extends AbstractGitHubApiTestBase {
 
     @Test
     public void markDown() throws Exception {
-        assertEquals("<p><strong>Test日本語</strong></p>", IOUtils.toString(gitHub.renderMarkdown("**Test日本語**")).trim());
+        assertEquals("<p><strong>Test日本�?/strong></p>", IOUtils.toString(gitHub.renderMarkdown("**Test日本�?*")).trim());
 
         String actual = IOUtils.toString(gitHub.getRepository("kohsuke/github-api").renderMarkdown("@kohsuke to fix issue #1", MarkdownMode.GFM));
         System.out.println(actual);
