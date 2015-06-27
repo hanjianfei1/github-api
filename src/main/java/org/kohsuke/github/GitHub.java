@@ -508,7 +508,7 @@ public class GitHub {
      *
      * <p>
      * It takes a Markdown document as plaintext and renders it as plain Markdown
-     * without a repository context (just like a README.md file is rendered â€“ this
+     * without a repository context (just like a README.md file is rendered â€?this
      * is the simplest way to preview a readme online).
      *
      * @see GHRepository#renderMarkdown(String, MarkdownMode)
