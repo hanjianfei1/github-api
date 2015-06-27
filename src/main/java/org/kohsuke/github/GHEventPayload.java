@@ -138,8 +138,7 @@ public abstract class GHEventPayload {
         }
 
         /**
-         * The full Git ref that was pushed. Example: “refs/heads/master”
-         */
+         * The full Git ref that was pushed. Example: “refs/heads/master�?         */
         public String getRef() {
             return ref;
         }
